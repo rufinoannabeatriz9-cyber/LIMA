@@ -1,0 +1,17 @@
+body {
+    font-family: cursive;
+    background-color: rgb(251, 226, 239);
+}
+.titulo h1 {
+    color: rgba(218, 111, 170, 0.943);
+    background-color: black;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+#paragrafo {
+    color: rgb(218, 111, 170);
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgb(221, 190, 207);
+}
