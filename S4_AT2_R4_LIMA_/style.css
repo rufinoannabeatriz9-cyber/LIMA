@@ -1,0 +1,159 @@
+/* ===== CSS BÁSICO - PixelGear ===== */
+
+/* Estilo geral da página toda */
+body {
+    font-family: Arial, sans-serif; /* tipo de letra */
+    background-color: #111; /* fundo escuro */
+    color: white; /* letra branca */
+    margin: 0; /* tira o espaço padrão do navegador */
+}
+
+/* Topo com o menu */
+.topo {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+.marca {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+/* Só a palavra GEAR fica de outra cor */
+.marca span {
+    color: rgb(255, 0, 149);
+}
+
+/* Links do menu */
+nav a {
+    color: white;
+    text-decoration: none; /* tira o sublinhado */
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: rgb(255, 0, 149); /* muda de cor quando o mouse passa */
+}
+
+/* Seção inicial */
+.inicio {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+/* Etiquetinha pequena em cima dos títulos */
+.etiqueta {
+    color: rgb(255, 0, 149);
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/* Botões (os links "Confira" e "Comprar") */
+.botao {
+    display: inline-block;
+    background-color: rgb(214, 167, 207);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px; /* cantos arredondados */
+}
+
+.botao:hover {
+    background-color: cyan;
+    color: black;
+}
+
+/* Seções (produtos, sobre, contato) */
+.secao {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Os 3 produtos lado a lado */
+.grade-produtos {
+    display: flex; /* coloca os cards em linha */
+    justify-content: center;
+    gap: 20px; /* espaço entre eles */
+    flex-wrap: wrap; /* no celular, quebra para a linha de baixo */
+}
+
+/* Cada produto */
+.produto {
+    background-color: #222;
+    width: 250px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.produto img {
+    width: 100%; /* a imagem ocupa a largura do card */
+}
+
+.preco {
+    color: rgb(190, 100, 158);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.observacao {
+    font-size: 12px;
+    color: rgb(220, 202, 222);
+}
+
+/* Sobre nós */
+.sobre-nos img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.descricao-sobre {
+    max-width: 600px;
+    margin: 20px auto; /* auto nas laterais = centraliza */
+}
+
+.valores ul {
+    list-style: none; /* tira as bolinhas */
+    padding: 0;
+}
+
+.valores li {
+    margin: 10px 0;
+}
+
+/* Formulário */
+.formulario-contato {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.formulario-contato label {
+    display: block; /* cada label numa linha */
+    margin-top: 10px;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box; /* o padding não aumenta a largura */
+}
+
+.formulario-contato button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: rgb(105, 17, 105);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* mãozinha ao passar o mouse */
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #d5b2d5;
+    text-align: center;
+    padding: 20px;
+}
