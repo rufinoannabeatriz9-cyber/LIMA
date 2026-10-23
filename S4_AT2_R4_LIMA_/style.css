@@ -4,4 +4,16 @@ body {
     background-color: #111;
     color: white; 
     margin: 0; 
+    text-align: center;
 }
+img {
+    width: 250px;
+    height: auto;
+}
+.tabela {
+    margin: 20px auto;
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
